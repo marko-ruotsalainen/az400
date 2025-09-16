@@ -16,6 +16,14 @@ steps:
       npm install
       npm test
     displayName: 'Install dependencies and run tests'
+  - script: |
+      zip -r app.zip .
+    displayName: 'Package application'
+  - task: PublishBuildArtifacts@1
+    inputs:
+      PathtoPublish: '$(Build.SourcesDirectory)/app.zip'
+      ArtifactName: 'drop'
+    displayName: 'Publish Artifact'
 
   # Lisää tähän vaihe sovelluksen pakkaamiseksi zip-muotoon
   # Lisää tähän vaihe artefaktin julkaisemiseksi nimellä drop
