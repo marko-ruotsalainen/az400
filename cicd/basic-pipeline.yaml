@@ -25,5 +25,6 @@ steps:
       ArtifactName: 'drop'
     displayName: 'Publish Artifact'
 
+
   # Lisää tähän vaihe sovelluksen pakkaamiseksi zip-muotoon
   # Lisää tähän vaihe artefaktin julkaisemiseksi nimellä drop
