@@ -27,3 +27,16 @@ stages:
               PathtoPublish: '$(Build.SourcesDirectory)/app.zip'
               ArtifactName: 'drop'
             displayName: 'Publish Artifact'
+  - stage: Deploy_Dev
+    dependsOn: Build
+    jobs:
+      - deployment: DeployToDev
+        environment: 'Development'
+        strategy:
+          runOnce:
+            deploy:
+              steps:
+                - download: current
+                  artifact: drop
+                
+  
