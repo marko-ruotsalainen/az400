@@ -7,6 +7,13 @@ Implement PR workflows with branch policies (Azure DevOps) and branch protection
 - Design and implement a pull request workflow by using branch policies and branch protections
 - Implement branch merging restrictions by using branch policies and branch protections
 
+## Prerequisites
+- **Git** installed (`git --version` to verify)
+- **GitHub CLI (`gh`)** installed and authenticated — the official command-line tool for GitHub. Used here to create PRs, review them, and merge from the terminal.
+  - Install: https://cli.github.com/
+  - Authenticate: `gh auth login`
+  - Verify: `gh --version`
+
 ## Steps
 
 ### Part A: GitHub Branch Protection Rules

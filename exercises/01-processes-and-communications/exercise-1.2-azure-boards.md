@@ -9,8 +9,9 @@ Configure Azure Boards for work tracking and integrate with GitHub repositories 
 - Configure integration between Azure Boards and GitHub repositories
 
 ## Prerequisites
-- Azure DevOps organization (free at dev.azure.com)
+- Azure DevOps organization (free at [dev.azure.com](https://dev.azure.com))
 - GitHub repository from Exercise 1.1
+- **Git** installed (`git --version` to verify) — used for commits with work item linking
 
 ## Steps
 

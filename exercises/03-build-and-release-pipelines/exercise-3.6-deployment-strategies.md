@@ -9,6 +9,12 @@ Implement various deployment strategies including blue-green, canary, rolling, f
 - Design a hotfix path plan
 - Implement feature flags by using Azure App Configuration Feature Manager
 
+## Prerequisites
+- **Azure CLI (`az`)** — used to manage App Service deployment slots, traffic routing, and Azure App Configuration feature flags.
+  - Install: https://learn.microsoft.com/en-us/cli/azure/install-azure-cli
+  - Authenticate: `az login`
+- Azure subscription with an App Service (or you'll create one in the exercise)
+
 ## Steps
 
 ### Part A: Blue-Green Deployment (Azure App Service Slots)

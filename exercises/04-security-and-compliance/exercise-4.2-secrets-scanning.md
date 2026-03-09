@@ -12,6 +12,18 @@ Manage secrets securely in pipelines and implement automated security scanning w
 - Configure GitHub Advanced Security for both GitHub and Azure DevOps
 - Automate container scanning and analysis of open-source components
 
+## Prerequisites
+- **Azure CLI (`az`)** — used to create and manage Azure Key Vault and secrets.
+  - Install: https://learn.microsoft.com/en-us/cli/azure/install-azure-cli
+  - Authenticate: `az login`
+- **GitHub CLI (`gh`)** — used to manage GitHub repository secrets.
+  - Install: https://cli.github.com/
+  - Authenticate: `gh auth login`
+- **Node.js & npm/npx** — used for security scanning tools like `npm audit` and `license-checker`.
+  - Install: https://nodejs.org/ (LTS version)
+- **Docker** (optional) — for container image scanning.
+  - Install: https://docs.docker.com/get-docker/
+
 ## Steps
 
 ### Part A: Azure Key Vault Integration

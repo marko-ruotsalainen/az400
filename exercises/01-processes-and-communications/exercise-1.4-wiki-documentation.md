@@ -8,6 +8,10 @@ Document a project using wikis, Markdown, and Mermaid syntax. Automate release n
 - Configure release documentation, including release notes and API documentation
 - Automate creation of documentation from Git history
 
+## Prerequisites
+- Azure DevOps project from previous exercises
+- **Git** installed (`git --version` to verify) — used for `git log` to generate release notes
+
 ## Steps
 
 ### Part A: Create a Project Wiki in Azure DevOps

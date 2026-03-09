@@ -10,6 +10,10 @@ Design and implement dashboards to track key DevOps metrics including DORA metri
 ## Prerequisites
 - Azure DevOps project from Exercise 1.2
 - GitHub repository with some commit history
+- **Azure CLI (`az`)** installed and authenticated — the official command-line tool for managing Azure resources. Used here to query pipeline run data.
+  - Install: https://learn.microsoft.com/en-us/cli/azure/install-azure-cli
+  - Authenticate: `az login`
+  - Verify: `az --version`
 
 ## Steps
 

@@ -10,6 +10,11 @@ Implement GitHub Flow branching strategy with full work item traceability using 
 
 ## Prerequisites
 - GitHub account with a repository (you can use this repo)
+- **GitHub CLI (`gh`)** installed and authenticated. The GitHub CLI is the official command-line tool for GitHub — it lets you create repositories, issues, pull requests, labels, and more from the terminal without opening the browser.
+  - Install: https://cli.github.com/
+  - Authenticate: run `gh auth login` and follow the prompts
+  - Verify: `gh --version`
+- **Git** installed (`git --version` to verify)
 
 ## Steps
 

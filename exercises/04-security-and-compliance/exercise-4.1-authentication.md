@@ -8,6 +8,15 @@ Implement various authentication methods for Azure DevOps and GitHub, including 
 - Implement and manage GitHub authentication (GitHub Apps, GITHUB_TOKEN, PATs)
 - Implement and manage Azure DevOps service connections and PATs
 
+## Prerequisites
+- **Azure CLI (`az`)** — used to create service principals, managed identities, and role assignments.
+  - Install: https://learn.microsoft.com/en-us/cli/azure/install-azure-cli
+  - Authenticate: `az login`
+- **GitHub CLI (`gh`)** — used to configure GitHub secrets and OIDC federation.
+  - Install: https://cli.github.com/
+  - Authenticate: `gh auth login`
+- Azure subscription and GitHub repository from previous exercises
+
 ## Steps
 
 ### Part A: Service Principals vs Managed Identity

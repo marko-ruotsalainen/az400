@@ -9,6 +9,15 @@ Configure package feeds using GitHub Packages and Azure Artifacts, implement dep
 - Design and implement a dependency versioning strategy (SemVer and CalVer)
 - Design and implement a versioning strategy for pipeline artifacts
 
+## Prerequisites
+- **Node.js & npm** — JavaScript runtime and package manager. Used to create, publish, and consume packages.
+  - Install: https://nodejs.org/ (LTS version, includes npm)
+  - Verify: `node --version && npm --version`
+- **Azure CLI (`az`)** — used for publishing universal packages to Azure Artifacts.
+  - Install: https://learn.microsoft.com/en-us/cli/azure/install-azure-cli
+  - Authenticate: `az login`
+- GitHub account and Azure DevOps organization from previous exercises
+
 ## Steps
 
 ### Part A: GitHub Packages

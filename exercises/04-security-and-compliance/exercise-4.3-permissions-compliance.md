@@ -9,6 +9,12 @@ Configure permissions and roles in GitHub and Azure DevOps, including access lev
 - Recommend appropriate access levels (stakeholder access, outside collaborator)
 - Configure projects and teams in Azure DevOps
 
+## Prerequisites
+- **Node.js & npm/npx** — used for `npm audit` (dependency vulnerability scanning) and `npx license-checker` (license compliance checking).
+  - Install: https://nodejs.org/ (LTS version)
+  - Verify: `node --version && npm --version`
+- GitHub account and Azure DevOps organization from previous exercises
+
 ## Steps
 
 ### Part A: GitHub Permissions

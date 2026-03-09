@@ -10,6 +10,18 @@ Optimize large repositories, configure permissions and tags, and practice Git da
 - Recover specific data by using Git commands
 - Remove specific data from source control
 
+## Prerequisites
+- **Git 2.38+** — needed for Scalar support. Verify: `git --version`
+- **Scalar** — a Microsoft tool for optimizing very large Git repositories. It enables partial clone, sparse checkout, and commit-graph features. Bundled with Git 2.38+.
+  - Verify: `scalar version`
+- **Python 3 & pip** — Python runtime and package installer. Needed to install git-filter-repo.
+  - Install: https://www.python.org/downloads/
+  - Verify: `python3 --version && pip --version`
+- **git-filter-repo** — a Python tool for rewriting Git history (e.g., removing sensitive data from all commits). Replaces the older `git filter-branch`.
+  - Install: `pip install git-filter-repo`
+- **BFG Repo-Cleaner** (optional alternative) — a simpler tool for removing large files or secrets from Git history. Requires Java.
+  - Download: https://rtyley.github.io/bfg-repo-cleaner/
+
 ## Steps
 
 ### Part A: Repository Optimization with Scalar

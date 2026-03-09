@@ -9,6 +9,14 @@ Build comprehensive multi-stage Azure Pipelines with YAML, including variables, 
 - Design and implement a strategy for job execution order, including parallelism and multi-stage pipelines
 - Develop and implement complex pipeline scenarios
 
+## Prerequisites
+- **Azure CLI (`az`)** — used to create and manage Azure Pipelines from the command line.
+  - Install: https://learn.microsoft.com/en-us/cli/azure/install-azure-cli
+  - Authenticate: `az login`
+  - Install DevOps extension: `az extension add --name azure-devops`
+- **Node.js & npm** installed (see Exercise 3.1)
+- Azure DevOps organization from previous exercises
+
 ## Steps
 
 ### Part A: Multi-Stage Pipeline

@@ -10,6 +10,10 @@ Optimize pipelines for cost, performance, and reliability. Implement retention, 
 - Design and implement a retention strategy for pipeline artifacts and dependencies
 - Migrate a pipeline from classic to YAML in Azure Pipelines
 
+## Prerequisites
+- **Node.js & npm** installed (see Exercise 3.1) — used for caching and build examples
+- Existing pipeline configuration from previous exercises
+
 ## Steps
 
 ### Part A: Pipeline Caching

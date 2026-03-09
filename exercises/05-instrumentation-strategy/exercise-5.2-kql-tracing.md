@@ -8,6 +8,10 @@ Query logs using Kusto Query Language (KQL) and inspect distributed tracing in A
 - Inspect distributed tracing by using Application Insights
 - Interrogate logs using basic Kusto Query Language (KQL) queries
 
+## Prerequisites
+- Application Insights resource from Exercise 5.1 (with some telemetry data)
+- Access to the Azure Portal (https://portal.azure.com) — KQL queries are run in the portal's Log Analytics query editor, not via CLI
+
 ## Steps
 
 ### Part A: Basic KQL Queries

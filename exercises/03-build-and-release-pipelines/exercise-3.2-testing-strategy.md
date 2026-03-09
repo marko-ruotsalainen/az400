@@ -9,6 +9,12 @@ Implement a comprehensive testing strategy with quality gates, multiple test typ
 - Implement tests in a pipeline, including configuring test tasks and integration of test results
 - Implement code coverage analysis
 
+## Prerequisites
+- **Node.js & npm** — JavaScript runtime and package manager. Used here to install test frameworks and run tests.
+  - Install: https://nodejs.org/ (LTS version)
+  - Verify: `node --version && npm --version`
+- Sample project from previous exercises
+
 ## Steps
 
 ### Part A: Add Tests to the Sample App

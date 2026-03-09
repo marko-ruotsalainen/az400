@@ -9,6 +9,14 @@ Configure comprehensive monitoring for a DevOps environment using Azure Monitor,
 - Configure alerts for events in GitHub Actions and Azure Pipelines
 - Inspect infrastructure performance indicators (CPU, memory, disk, network)
 
+## Prerequisites
+- **Azure CLI (`az`)** — used extensively to create Log Analytics workspaces, Application Insights, alerts, action groups, and availability tests.
+  - Install: https://learn.microsoft.com/en-us/cli/azure/install-azure-cli
+  - Authenticate: `az login`
+- **Node.js & npm** — used to install the `applicationinsights` npm package for instrumenting the Node.js app.
+  - Install: https://nodejs.org/ (LTS version)
+- Azure subscription
+
 ## Steps
 
 ### Part A: Set Up Application Insights

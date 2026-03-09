@@ -9,6 +9,16 @@ Implement IaC using Bicep, ARM templates, and Terraform. Configure desired state
 - Define an IaC strategy, including source control and automation of testing and deployment
 - Design and implement desired state configuration (Azure Automation State Config, ARM, Bicep, Azure Automanage)
 
+## Prerequisites
+- **Azure CLI (`az`)** — used for Bicep deployments (`az deployment group create`) and what-if analysis.
+  - Install: https://learn.microsoft.com/en-us/cli/azure/install-azure-cli
+  - Authenticate: `az login`
+  - Install Bicep: `az bicep install`
+- **Terraform** — Infrastructure as Code tool by HashiCorp. Defines cloud resources in `.tf` files using HCL (HashiCorp Configuration Language).
+  - Install: https://developer.hashicorp.com/terraform/install
+  - Verify: `terraform --version`
+- Azure subscription
+
 ## Steps
 
 ### Part A: Bicep Templates

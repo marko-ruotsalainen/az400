@@ -7,6 +7,10 @@ Configure integrations between GitHub/Azure DevOps and Microsoft Teams using web
 - Configure integration by using webhooks
 - Configure integration between GitHub or Azure DevOps and Microsoft Teams
 
+## Prerequisites
+- GitHub repository from Exercise 1.1
+- **Git** installed (`git --version` to verify)
+
 ## Steps
 
 ### Part A: GitHub Webhooks

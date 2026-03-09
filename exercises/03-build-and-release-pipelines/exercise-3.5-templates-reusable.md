@@ -7,6 +7,10 @@ Create reusable pipeline elements including YAML templates, task groups, variabl
 - Create reusable pipeline elements, including YAML templates, task groups, variables, and variable groups
 - Develop and implement complex pipeline scenarios, such as hybrid pipelines, VM templates
 
+## Prerequisites
+- **Node.js & npm** installed (see Exercise 3.1)
+- Azure DevOps project or GitHub repository with pipeline configuration from previous exercises
+
 ## Steps
 
 ### Part A: Step Templates

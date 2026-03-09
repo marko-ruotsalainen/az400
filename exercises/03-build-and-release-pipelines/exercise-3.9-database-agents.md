@@ -7,6 +7,16 @@ Implement database migrations in pipelines and configure self-hosted agents/runn
 - Implement a deployment that includes database tasks
 - Design and implement a GitHub runner or Azure DevOps agent infrastructure
 
+## Prerequisites
+- **Flyway** — a database migration tool that applies versioned SQL migration scripts in order. Used to version-control database schema changes.
+  - Install: https://flywaydb.org/download
+  - Verify: `flyway --version`
+- **Azure CLI (`az`)** — used to create VMs for self-hosted agents.
+  - Install: https://learn.microsoft.com/en-us/cli/azure/install-azure-cli
+  - Authenticate: `az login`
+- **Docker** (optional) — for running self-hosted agents in containers.
+  - Install: https://docs.docker.com/get-docker/
+
 ## Steps
 
 ### Part A: Database Migrations in Pipelines

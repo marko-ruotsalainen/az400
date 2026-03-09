@@ -6,6 +6,14 @@ Implement Git LFS for managing large files and understand strategies for handlin
 ## Skills Measured
 - Design and implement a strategy for managing large files, including Git Large File Storage (LFS) and git-fat
 
+## Prerequisites
+- **Git** installed (`git --version` to verify)
+- **Git LFS** — an extension for Git that handles large files (images, videos, datasets) by storing them outside the main repo. Git LFS replaces large files with lightweight pointer files.
+  - Install: https://git-lfs.com/ or `sudo apt install git-lfs` / `brew install git-lfs`
+  - Initialize: `git lfs install`
+  - Verify: `git lfs version`
+- **GitHub CLI (`gh`)** installed and authenticated (see Exercise 1.1 for setup)
+
 ## Steps
 
 ### Part A: Set Up Git LFS

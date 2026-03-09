@@ -7,6 +7,17 @@ Build, push, and deploy containerized applications using Docker, ACR, and AKS.
 - Implement application deployment by using containers, binaries, and scripts
 - Automate container scanning
 
+## Prerequisites
+- **Docker** — container platform for building and running container images. Docker Desktop (Windows/Mac) or Docker Engine (Linux).
+  - Install: https://docs.docker.com/get-docker/
+  - Verify: `docker --version`
+- **Azure CLI (`az`)** — used for Azure Container Registry (ACR) and Azure Kubernetes Service (AKS) commands.
+  - Install: https://learn.microsoft.com/en-us/cli/azure/install-azure-cli
+  - Authenticate: `az login`
+- **kubectl** (optional, for AKS) — Kubernetes command-line tool for deploying and managing containerized apps.
+  - Install via Azure CLI: `az aks install-cli`
+  - Or: https://kubernetes.io/docs/tasks/tools/
+
 ## Steps
 
 ### Part A: Create a Dockerfile

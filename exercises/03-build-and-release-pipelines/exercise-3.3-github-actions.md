@@ -8,6 +8,13 @@ Build CI/CD workflows using GitHub Actions with various triggers, job configurat
 - Develop and implement pipeline trigger rules
 - Design and implement a strategy for job execution order, including parallelism and multi-stage pipelines
 
+## Prerequisites
+- **Node.js & npm** — JavaScript runtime and package manager. The sample app uses npm for dependencies and test scripts.
+  - Install: https://nodejs.org/ (LTS version)
+  - Verify: `node --version && npm --version`
+- **Git** installed (`git --version` to verify)
+- GitHub account with a repository
+
 ## Steps
 
 ### Part A: Basic Workflow Structure

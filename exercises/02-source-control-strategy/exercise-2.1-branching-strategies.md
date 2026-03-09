@@ -6,6 +6,10 @@ Understand, compare, and implement different branching strategies: trunk-based d
 ## Skills Measured
 - Design a branch strategy, including trunk-based, feature branch, and release branch
 
+## Prerequisites
+- **Git** installed (2.0+ recommended) — the version control system. Used extensively for branching, merging, and tagging.
+  - Verify: `git --version`
+
 ## Steps
 
 ### Part A: Trunk-Based Development
